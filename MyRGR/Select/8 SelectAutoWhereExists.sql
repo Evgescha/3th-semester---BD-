@@ -1,0 +1,1 @@
+SELECT * FROM Auto WHERE EXISTS (SELECT id_widAuto FROM WidAuto WHERE wa_name IN ('Автобус',' Камаз'))

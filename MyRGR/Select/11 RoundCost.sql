@@ -1,0 +1,1 @@
+SELECT id_Auto as [Номер авто] , round(au_stoumostProcata/1.9556, 2) as [Цена в USD],   round(au_stoumostProcata /2.3897, 2) as [Цена в EUR], round(au_stoumostProcata/3.4693*100, 2) as [Цена в RUB] FROM Auto

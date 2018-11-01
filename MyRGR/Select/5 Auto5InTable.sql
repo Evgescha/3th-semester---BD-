@@ -1,0 +1,1 @@
+SELECT * FROM Auto WHERE id_Marka=6 AND au_stoumostProcata>900

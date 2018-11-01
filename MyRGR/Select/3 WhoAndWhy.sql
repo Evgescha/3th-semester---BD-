@@ -1,0 +1,3 @@
+
+ SELECT DISTINCT id_Procat AS ['Номер в списке'], kl_firstName AS ['Имя клиента'], kl_tellNumber AS ['Телефон'],mk_name AS ['Марка'],	au_stoumostProcata AS ['Стоимость'], DateDiff("d",pr_inHang,pr_return) AS 'Использовали дней', au_stoumostProcata*DateDiff("d",pr_inHang,pr_return) AS ['Сумма'] FROM  ((Auto INNER JOIN Marka ON Auto.id_Marka = Marka.id_Marka) INNER JOIN Procat ON Procat.id_Auto = Auto.id_Auto) INNER JOIN Klient ON Procat.id_Klient = Klient.id_Klient
+ 

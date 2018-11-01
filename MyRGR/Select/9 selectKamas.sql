@@ -1,0 +1,1 @@
+SELECT * FROM WidAuto WHERE (wa_name = 'Камаз' OR wa_name='Молоковоз' ) AND id_widAuto<>12

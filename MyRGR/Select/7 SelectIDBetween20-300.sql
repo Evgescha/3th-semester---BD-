@@ -1,0 +1,1 @@
+SELECT id_Procat FROM Procat WHERE DateDiff("d",pr_inHang,pr_return)   BETWEEN 20 AND 300;

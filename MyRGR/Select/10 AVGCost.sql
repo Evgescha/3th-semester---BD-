@@ -1,0 +1,1 @@
+SELECT AVG(au_stoumostProcata) as [—редн€€ цена] FROM Auto
